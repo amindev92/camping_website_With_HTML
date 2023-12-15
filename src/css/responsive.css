@@ -1,0 +1,158 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+     .container {
+         width: 58rem;
+     }
+
+     .newsletters {
+         margin: 6rem 1rem;
+     }
+
+
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+     .container {
+         width: 72rem;
+     }
+
+     .newsletters {
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-between;
+         align-items: center;
+         margin: 6rem 9rem;
+     }
+
+     .newsletters__banner {
+         margin-left: auto;
+         justify-content: right;
+         width: 25rem;
+         flex-basis: auto;
+     }
+
+
+     .newsletters__content {
+         margin-left: 0;
+         text-align: left;
+         width: 45rem;
+         flex-basis: auto;
+     }
+
+     .newsletters__title {
+         max-width: 100%;
+     }
+
+     .newsletters__caption {
+         max-width: 36rem;
+         margin: 0;
+     }
+
+     .newsletters__email-box {
+         margin-top: 2rem;
+     }
+
+     .newsletters::before {
+         top: 0;
+         left: -20rem;
+         bottom: 0;
+         right: 0;
+     }
+
+
+ }
+
+ @media only screen and (max-width: 992px) {
+     .menu-desktop {
+         display: none;
+     }
+
+     .menu-buttons {
+         display: none;
+     }
+
+     .footer-scroll {
+         left: 0;
+         right: 0;
+         margin: 0 auto;
+     }
+
+
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+     .container {
+         width: 96rem;
+     }
+
+     .menu-mobile {
+         display: none;
+     }
+
+     .menu-buttons-mobile {
+         display: none;
+     }
+
+     .nav-btn {
+         display: none;
+     }
+
+     .header-content__caption {
+         width: 45rem;
+     }
+
+     .newsletters {
+         margin: 6rem 7rem;
+     }
+
+     .footer__content {
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: space-between;
+     }
+
+     .footer__caption {
+         width: 35rem;
+         flex-basis: 40%;
+     }
+
+     .footer__menus {
+         width: 60rem;
+         flex-basis: 50%;
+         justify-content: flex-end;
+     }
+
+     .footer-scroll {
+         right: 10rem;
+     }
+
+     .newsletters::before {
+         top: 0;
+         left: 0;
+         bottom: 0;
+         right: 0;
+     }
+
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+     .container {
+         width: 114rem;
+     }
+
+     .newsletters {
+         margin: 6rem 1rem;
+     }
+
+     .footer-scroll {
+         right: 4rem;
+     }
+
+
+ }
